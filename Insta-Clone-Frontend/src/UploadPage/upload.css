@@ -1,0 +1,89 @@
+body{
+   
+        background-size: cover;
+        animation: image 5s infinite alternate;
+          
+    }
+    @keyframes image{
+        0% {
+            background-image: url('https://i.pinimg.com/736x/3c/69/52/3c6952c27b1555c430bd1eea732fed9f--wallpaper-for-resolutions.jpg');
+          }
+          25%{
+            background-image: url("https://ak.picdn.net/shutterstock/videos/27970681/thumb/1.jpg");
+          }
+          50%{
+            background-image: url("https://tse1.explicit.bing.net/th?id=OIP.3A5vYj2Mm7vdLrj_DF12YgHaE7&pid=Api&P=0");
+          }
+          75%{
+            background-image: url('https://coolwallpapers.me/picsup/5267452-sky-cloud-blur-landscape-horizon-sunset-sunrise-outdoors-nature-line-sky-and-land-public-domain-images.jpg');
+          }
+          100%{
+            background-image: url('https://tse4.mm.bing.net/th?id=OIP.Kh7DgxVILa_YI3NWC42z8AHaE7&pid=Api&P=0');
+          }
+        }
+
+.uploadcontainer {
+    width: 40vw;
+    display: flex;
+    margin: 10% auto;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+}
+
+.content {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+input {
+ margin:1% 2
+}
+
+button {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    margin: 5px;
+    padding: 5px;
+    
+}
+#changes{
+    border:3px solid black;
+    justify-content: center;
+    /* padding: 40%; */
+    width: 500px;
+    height: 400px;
+    margin-left: 25%;
+    background-color: white;
+    margin-top: 10px;
+    
+}
+input{
+    /* width: 100px; */
+    border: 2px solid red;
+    margin: 20px;
+    width: 300px;
+    padding: 8x;
+    height: 33px;
+    /* border-width: 5px; */
+    border-radius: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+.input1{
+    padding-right: 95px ;   
+}
+
+.upload{
+    background-color: cyan;
+    border-radius: 8px;
+    color: red;
+    cursor: pointer;
+}
+button:hover{
+   background-color: blueviolet;
+   color: bisque;
+}
