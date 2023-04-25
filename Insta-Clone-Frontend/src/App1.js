@@ -8,7 +8,7 @@ import camera from './PostView/camera.png'
 function App() {
   const [userData, updateUserData] = useState([])
   useEffect(() => {
-        fetch('http://localhost:7000/getposts') //insta-backend-3sch.onrender.com
+        fetch('https://instaclonebackend-yz2f.onrender.com/getposts') //insta-backend-3sch.onrender.com
             .then(function (response) {
                 return response.json();
             })
